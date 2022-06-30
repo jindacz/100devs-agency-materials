@@ -1,0 +1,16 @@
+h1{
+    color:purple;
+  }
+  
+  section>h2{
+    color:yellow;
+  }
+  
+  article h2{
+    color:red
+  }
+  
+  /* cascade more specific, override */
+  section>article>h2{
+    color:orange;
+  }
